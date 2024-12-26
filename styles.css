@@ -3,26 +3,27 @@
 }
 body {
   margin: 0;
-  background-image: url();
+  background-image: url(/img/pexels-andreea-ch-371539-1166644.jpg);
+  background-repeat: no-repeat;
 }
 .heading {
   display: flex;
-
   font-size: 3rem;
 }
 #sOne {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 5vh;
 }
 #sTwo {
   display: flex;
   justify-content: space-between;
   margin-inline: 7%;
+  margin-top: 5vh;
 }
 .note {
   width: 15vw;
   padding: 1rem;
-  font-size: 2rem;
   background-color: steelblue;
   border-radius: 2rem;
   border: 1px dashed yellow;
@@ -31,6 +32,41 @@ body {
   display: flex;
   justify-content: center;
 }
+.kirangHaerang {
+  font-family: Kirang Haerang, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+.knewave {
+  font-family: Knewave, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubikDistressed {
+  font-family: Rubik Distressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.barriecito {
+  font-family: Barriecito, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.afacadFlux {
+  font-family: "Afacad Flux", serif;
+  font-size: 1.8rem;
+}
 .add {
-  text-align: left;
+  width: 100%;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.add:hover {
+  background: yellow;
+}
+.add:active {
+  background-color: red;
 }
