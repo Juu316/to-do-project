@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url();
+}
+.heading {
+  display: flex;
+
+  font-size: 3rem;
+}
+#sOne {
+  display: flex;
+  justify-content: space-evenly;
+}
+#sTwo {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 7%;
+}
+.note {
+  width: 15vw;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: steelblue;
+  border-radius: 2rem;
+  border: 1px dashed yellow;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.add {
+  text-align: left;
+}
