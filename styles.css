@@ -18,7 +18,7 @@ body {
 #sTwo {
   display: flex;
   justify-content: space-between;
-  margin-inline: 7%;
+  margin-inline: 6%;
   margin-top: 5vh;
 }
 .note {
@@ -36,7 +36,7 @@ body {
   font-family: Kirang Haerang, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 2.7vw;
 }
 .knewave {
   font-family: Knewave, sans-serif;
@@ -47,6 +47,7 @@ body {
   font-family: Rubik Distressed, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 4vw;
 }
 .barriecito {
   font-family: Barriecito, sans-serif;
@@ -55,7 +56,7 @@ body {
 }
 .afacadFlux {
   font-family: "Afacad Flux", serif;
-  font-size: 1.8rem;
+  font-size: 2.2vw;
 }
 .add {
   width: 100%;
@@ -65,8 +66,13 @@ body {
   border-bottom-left-radius: 1rem;
 }
 .add:hover {
-  background: yellow;
+  background: rgb(66, 135, 240);
+  cursor: pointer;
 }
 .add:active {
-  background-color: red;
+  background-color: rgb(70, 140, 250);
+}
+.inputOfToDo {
+  width: 100vw;
+  /* display: none; */
 }
